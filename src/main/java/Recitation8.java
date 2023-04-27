@@ -6,7 +6,7 @@ public class Recitation8 {
     private static int findMin(int startIndex, int endIndex, int[] arr){
         int smallestNum = arr[startIndex];
         for(int i = startIndex; i <= endIndex; i++){
-            if(smallestNum < arr[i]){
+            if(smallestNum > arr[i]){
                 smallestNum = arr[i];
             }
         }
